@@ -108,6 +108,28 @@ h1 {
     color: rgb(38, 41, 35);
 }
 
+.btn-voltar {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    background-color: #5b5b5c;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.btn-voltar:hover {
+    background-color: #383838;
+}
+
+.moldura {
+    position: relative; 
+}
+
 footer img  {
     width: 40px;
     height: 40px;
